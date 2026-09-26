@@ -1,0 +1,9 @@
+{
+  "as_of":"2026-09-26T12:00:00Z","currency":"USD",
+  "updated_at":{"crm":"2026-09-26T11:00:00Z","books":"2026-09-24T11:00:00Z","people":"2026-09-26T10:00:00Z"},
+  "accounts":[{"id":"a-1","segment":"SMB"},{"id":"a-2","segment":"Enterprise"}],
+  "deals":[{"id":"d-1","account_id":"a-1","stage":"won"},{"id":"d-2","account_id":"a-2","stage":"open"}],
+  "invoices":[{"id":"i-1","account_id":"a-1","currency":"USD","status":"paid","net_amount":"1200.00"},
+              {"id":"i-2","account_id":"a-2","currency":"EUR","status":"paid","net_amount":"200.00"}],
+  "staff":[{"id":"s-1","hours_available":40,"hours_booked":30},{"id":"s-2","hours_available":40,"hours_booked":20}]
+}
